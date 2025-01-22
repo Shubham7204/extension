@@ -353,3 +353,31 @@ h1 {
     margin-top: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.result-box {
+    background: #FFFFFF; /* White background for the box */
+    border-radius: 12px; /* Rounded corners */
+    padding: 1.5rem; /* Padding inside the box */
+    margin-top: 1rem; /* Space above the box */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.result-box:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.rating {
+    font-size: 1.5rem; /* Larger font for rating */
+    font-weight: bold; /* Bold text */
+    color: var(--primary); /* Use primary color */
+    margin-bottom: 0.5rem; /* Space below rating */
+}
+
+.summary, .detail {
+    background: #F8FAF8; /* Light background for readability */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1rem; /* Padding inside the summary and detail */
+    margin-top: 1rem; /* Space above summary and detail */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}

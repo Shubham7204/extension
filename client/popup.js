@@ -45,9 +45,11 @@ document.addEventListener("DOMContentLoaded", () => {
                         console.log("Description at frontend: ", description);
 
                         resultDiv.innerHTML = `
-                            <div class="rating">Rating: ${rating}</div>
-                            <div class="summary">${marked(summary)}</div>
-                            <div class="detail">${marked(detail)}</div>
+                            <div class="result-box">
+                                <div class="rating">Rating: ${rating}</div>
+                                <div class="summary">${marked(summary)}</div>
+                                <div class="detail">${marked(detail)}</div>
+                            </div>
                         `;
 
                         alternativesButton.style.display = "block";
